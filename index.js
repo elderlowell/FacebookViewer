@@ -1,7 +1,7 @@
 const express = require('express');
 const session = require('express-session');
 const passport = require('passport');
-const FacebookStrategy = require('passport-facebook').Strategy;
+const FacebookStrategy = require('passport-facebook').Strategy;//needs capitalized because it's a constructor function!!!
 
 const app = module.exports = express();
 
